@@ -182,14 +182,22 @@ html {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    min-height: 70vh;
+  .navbar h2 {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
   }
 
   .hero h1 {
-    font-size: 38px;
-    line-height: 1.15;
-    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+
+  .hero {
+    min-height: 70vh;
   }
 
   .hero p {
@@ -202,17 +210,5 @@ html {
 
   .section h2 {
     font-size: 30px;
-  }
-
-  .navbar {
-    padding: 16px 20px;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .nav-links {
-    gap: 14px;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
