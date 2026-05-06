@@ -4,34 +4,43 @@ function App() {
   return (
     <main className="site">
       <nav className="navbar">
-        <h2>Bella Vista</h2>
+        <h2>Ristorante Luna Verde</h2>
 
-        <div>
+        <div className="nav-links">
           <a href="#accueil">Accueil</a>
           <a href="#apropos">À propos</a>
           <a href="#menu">Menu</a>
           <a href="#contact">Contact</a>
         </div>
-        </nav>
-        <section id="accueil" className="hero">
+      </nav>
+
+      <section id="accueil" className="hero">
         <div className="hero-content">
-          <p className="eyebrow">Cuisine italienne moderne</p>
-          <h1>Restaurant Bella Vista</h1>
+          <h1>Ristorante Luna Verde</h1>
+
+          <p className="eyebrow">
+            Cuisine italienne moderne
+          </p>
+
           <p>
             Des plats faits maison, une ambiance chaleureuse et une expérience
             parfaite pour vos soirées à Montréal.
           </p>
-          <a className="button" href="#contact">Réserver une table</a>
+
+          <a className="button" href="#contact">
+            Réserver une table
+          </a>
         </div>
       </section>
-      
+
       <section id="apropos" className="section about">
         <div>
           <h2>À propos</h2>
+
           <p>
-            Bella Vista propose une cuisine italienne simple, fraîche et
-            savoureuse. Notre objectif est d’offrir une expérience conviviale
-            avec des ingrédients de qualité.
+            Ristorante Luna Verde propose une cuisine italienne simple,
+            fraîche et savoureuse. Notre objectif est d’offrir une expérience
+            conviviale avec des ingrédients de qualité.
           </p>
         </div>
       </section>
@@ -83,13 +92,16 @@ function App() {
 
       <section id="contact" className="section contact">
         <h2>Contact</h2>
-        <p>📍 123 rue Saint-Laurent, Montréal</p>
+
+        <p>📍 123 rue Saint-Roméos, Montréal</p>
         <p>📞 514-123-4567</p>
-        <p>✉️ info@bellavista.ca</p>
+        <p>✉️ info@lunaverde.ca</p>
       </section>
 
       <footer>
-        <p>© 2026 Restaurant Bella Vista. Tous droits réservés.</p>
+        <p>
+          © 2026 Ristorante Luna Verde. Tous droits réservés.
+        </p>
       </footer>
     </main>
   );
