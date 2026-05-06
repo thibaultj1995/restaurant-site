@@ -187,7 +187,9 @@ html {
   }
 
   .hero h1 {
-    font-size: 40px;
+    font-size: 38px;
+    line-height: 1.15;
+    margin-bottom: 20px;
   }
 
   .hero p {
